@@ -1,0 +1,743 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Structured Programming vs. Object Oriented Programming</title>
+	<meta charset="utf-8">
+	<meta http-equiv="x-ua-compatible" content="ie=edge">
+	<meta name="viewport"  content="width=device-width, initial-scale=1">
+  <meta name="generator"  content="Slide Show (S9) v4.0.1 on Ruby 2.6.1 (2019-01-30) [x86_64-linux-musl]">
+	<meta name="author"     content="Rafael García Cabrera">
+	<link rel="stylesheet" href="shower/themes/ribbon/styles/screen-16x10.css">
+</head>
+<body class="shower list">
+	<header class="caption">
+		<h1>Structured Programming vs. Object Oriented Programming</h1>
+		<p>Rafael García Cabrera</p>
+	</header>
+	<section class="slide" id="cover">
+		<h2>Structured Programming vs. Object Oriented Programming</h2>
+		<p>by Rafael García Cabrera</p>
+		<img src="images/developer.png" alt="" class="cover">
+		<!--
+			To apply styles to the certain slides
+			set slide ID to get needed elements
+			-->
+		<style>
+			#cover h2 {
+				margin:30px 0 0;
+				color:#FFF;
+				text-align:center;
+				font-size:70px;
+				}
+			#cover p {
+				margin:10px 0 0;
+				text-align:center;
+				color:#FFF;
+				font-style:italic;
+				font-size:20px;
+				}
+				#cover p a {
+					color:#FFF;
+					}
+		</style>
+	</section>
+
+
+
+<section class="slide " id="1"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- 
+developer.png from
+https://pixabay.com/photo-3461405/
+Pixabay License
+https://pixabay.com/es/service/license/
+-->
+
+
+<!-- _S9SLIDE_ -->
+<h2 id="programming-paradigms-i">Programming Paradigms (I)</h2>
+<p><a href="https://en.wikipedia.org/wiki/Programming_paradigm">Programming paradigms</a> are a way to classify programming languages based on their features.</p>
+
+<p>A <strong>programming paradigm</strong> is a fundamental style of computer programming.</p>
+
+<p>Programming paradigms differ in how each element of the programs is represented and how steps are defined for solving problems.</p>
+
+
+
+</section>
+
+<section class="slide " id="2"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="programming-paradigms-ii">Programming Paradigms (II)</h2>
+
+<p>Some paradigms are concerned mainly with implications for the <a href="https://en.wikipedia.org/wiki/Execution_model">execution model</a> of the language, such as allowing <a href="https://en.wikipedia.org/wiki/Side_effect_(computer_science)">side effects</a>, or whether the sequence of operations is defined by the execution model.</p>
+
+<p>Other paradigms are concerned mainly with the way that code is organized, such as grouping a code into units along with the state that is modified by the code.</p>
+
+<p>Yet others are concerned mainly with the style of syntax and grammar.</p>
+
+
+
+</section>
+
+<section class="slide " id="3"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="common-programming-paradigms">Common Programming Paradigms</h2>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Imperative_programming">imperative</a> in which the programmer instructs the machine how to change its state,
+    <ul>
+      <li><a href="https://en.wikipedia.org/wiki/Procedural_programming">procedural</a> which groups instructions into procedures,</li>
+      <li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">object-oriented</a> which groups instructions together with the part of the state they operate on,</li>
+    </ul>
+  </li>
+  <li><a href="https://en.wikipedia.org/wiki/Declarative_programming">declarative</a> in which the programmer merely declares properties of the desired result, but not how to compute it (<a href="https://en.wikipedia.org/wiki/Functional_programming" title="the desired result is declared as the value of a series of function applications">functional</a>, <a href="https://en.wikipedia.org/wiki/Logic_programming" title="the desired result is declared as the answer to a question about a system of facts and rules">logic</a>, <a href="https://en.wikipedia.org/wiki/Mathematical_programming" title="the desired result is declared as the solution of an optimization problem">mathematical</a>)</li>
+</ul>
+
+
+
+</section>
+
+<section class="slide " id="4"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="programming-language">Programming language</h2>
+
+<blockquote>
+  <p>A programming language is a <a href="https://en.wikipedia.org/wiki/Formal_language">formal language</a>, which comprises a <a href="https://en.wikipedia.org/wiki/Instruction_set">set of instructions</a> used to produce various kinds of <a href="https://en.wikipedia.org/wiki/Input/output">output</a>. Programming languages are used in <a href="https://en.wikipedia.org/wiki/Computer_programming">computer programming</a> to create programs that implement specific <a href="https://en.wikipedia.org/wiki/Algorithm" title="unambiguous specification of how to solve a class of problems">algorithms</a>.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Programming_language">Programming language</a></p>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_programming_languages_by_type"><strong>List of programming languages by type</strong></a></li>
+</ul>
+
+
+</section>
+
+<section class="slide " id="5"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_  -->
+
+<!-- 
+developer.png from
+https://pixabay.com/photo-942485/
+Pixabay License
+https://pixabay.com/es/service/license/
+-->
+
+<p><img src="images/books.jpg" alt="books" /></p>
+
+
+
+</section>
+
+<section class="slide " id="6"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="multiparadigm-programming-languages">Multiparadigm programming languages</h2>
+<blockquote>
+  <p>Many of the most widely used programming languages (such as <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>, <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>, <a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>, <a href="https://en.wikipedia.org/wiki/PHP">PHP</a>, <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a> etc.) are <strong>multiparadigm programming languages</strong> that support object-oriented programming to a greater or lesser degree, typically in combination with imperative, procedural programming.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">Object-oriented programming</a></p>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Comparison_of_multi-paradigm_programming_languages"><strong>Comparison of multi-paradigm programming languages</strong></a></li>
+</ul>
+
+
+
+</section>
+
+<section class="slide " id="7"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="some-languages">Some languages</h2>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a>: object-oriented (class-based), structured, imperative, generic, reflective, concurrent.</li>
+  <li><a href="https://en.wikipedia.org/wiki/Python_(programming_language)">Python</a>: functional, imperative, object-oriented (class-based), reflective</li>
+  <li><a href="https://en.wikipedia.org/wiki/C%2B%2B">C++</a>: procedural, functional, object-oriented (class-based), generic.</li>
+  <li><a href="https://en.wikipedia.org/wiki/PHP">PHP</a>: imperative, functional, object-oriented (class-based), procedural, reflective</li>
+  <li><a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>: event-driven, functional, imperative, object-oriented (prototype-based)</li>
+</ul>
+
+
+
+</section>
+
+<section class="slide " id="8"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="object-oriented-programming-oop-and-structured-programming-are-two-programming-paradigms">Object Oriented Programming (OOP) and Structured Programming are two programming paradigms.</h2>
+
+<p>As the name suggests, <strong>OOP</strong> focuses on representing problems using <strong>real-world objects and their behavior</strong>,</p>
+
+<p>while <strong>Structured Programming</strong> deals with organizing the program in a <strong>logical structure</strong>.</p>
+
+
+
+</section>
+
+<section class="slide " id="9"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="structured-program-theorem-i">Structured Program Theorem (I)</h2>
+
+<blockquote>
+  <p>The <strong>structured program theorem</strong>, also called <strong>Böhm-Jacopini theorem</strong>, is a result in <a href="https://en.wikipedia.org/wiki/Programming_language_theory">programming language theory</a>. It states that a class of <a href="https://en.wikipedia.org/wiki/Control_flow_graph" title="A flowchart is a type of diagram that represents an algorithm, workflow or process">control flow graphs</a> (historically called <a href="https://en.wikipedia.org/wiki/Flowchart" title="A flowchart is a type of diagram that represents an algorithm, workflow or process.">charts</a> in this context) can compute any computable function if it combines subprograms in only three specific ways (<a href="https://en.wikipedia.org/wiki/Control_structure">control structures</a>).</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Structured_program_theorem">Structured program theorem</a></p>
+
+
+
+</section>
+
+<section class="slide " id="10"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="structured-program-theorem-ii">Structured Program Theorem (II)</h2>
+<p>The theorem states that it is possible to write any computer program by using only three basic control structures:</p>
+
+<ol>
+  <li><strong><a href="https://en.wikibooks.org/wiki/Programming_Fundamentals/Flowcharts" title="Executing one subprogram, and then another subprogram">Sequence</a></strong>: ordered statements or subroutines executed in sequence.</li>
+  <li><strong><a href="https://en.wikibooks.org/wiki/Programming_Fundamentals/Flowcharts" title="Executing one of two subprograms according to the value of a boolean expression">Selection</a></strong>: one or a number of statements is executed depending on the state of the program.</li>
+  <li><strong><a href="https://en.wikibooks.org/wiki/Programming_Fundamentals/Flowcharts" title="Repeatedly executing a subprogram as long as a boolean expression is true">Iteration</a></strong>: a statement or block is executed until the program reaches a certain state, or operations have been applied to every element of a collection.</li>
+</ol>
+
+
+
+</section>
+
+<section class="slide " id="11"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="control-flow">Control flow</h2>
+<blockquote>
+  <p>In computer science, <strong>control flow</strong> is the order in which individual <a href="https://en.wikipedia.org/wiki/Statement_(computer_science)">statements</a>, instructions or <a href="https://en.wikipedia.org/wiki/Statement_(computer_science)">function calls</a> of an imperative program are <a href="https://en.wikipedia.org/wiki/Execution_(computing)">executed</a> or evaluated. The emphasis on explicit control flow distinguishes an <a href="https://en.wikipedia.org/wiki/Imperative_programming">imperative programming</a> language from a <a href="https://en.wikipedia.org/wiki/Declarative_programming">declarative programming</a> language.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Control_flow">Control flow</a></p>
+
+
+
+</section>
+
+<section class="slide " id="12"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="sequence">Sequence</h2>
+<!-- 
+https://commons.wikimedia.org/wiki/File:Flowgorithm_Hello_World.svg
+Creative Commons Attribution-Share Alike 4.0 International license. 
+-->
+
+<p><img src="images/Flowgorithm_Hello_World.svg" alt="Hello World Sequence" /></p>
+
+
+
+</section>
+
+<section class="slide " id="13"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="selection-conditional">Selection (Conditional)</h2>
+<blockquote>
+  <p>In <a href="https://en.wikipedia.org/wiki/Computer_science">computer science</a>, <strong>conditional statements</strong>, <strong>conditional expressions</strong> and <strong>conditional constructs</strong> are features of a <a href="https://en.wikipedia.org/wiki/Programming_language">programming language</a>, which perform different computations or actions depending on whether a programmer-specified <a href="https://en.wikipedia.org/wiki/Boolean_datatype">boolean</a> condition evaluates to true or false. Apart from the case of <a href="https://en.wikipedia.org/wiki/Branch_predication">branch predication</a>, this is always achieved by selectively altering the <a href="https://en.wikipedia.org/wiki/Control_flow">control flow</a> based on some condition.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)">Conditional (computer programming)</a></p>
+
+
+
+</section>
+
+<section class="slide " id="14"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="selection">Selection</h2>
+<!-- 
+If-Then-Else-diagram.svg
+By P. Kemp - own work created using Dia, CC0
+https://commons.wikimedia.org/w/index.php?curid=1213392
+Creative Commons CC0 1.0 Universal Public Domain Dedication. 
+-->
+
+<p><img src="images/If-Then-Else-diagram.svg" alt="If Then Else diagram" /></p>
+
+
+
+</section>
+
+<section class="slide " id="15"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="iteration-while-loop">Iteration (While loop)</h2>
+<blockquote>
+  <p>In most computer programming languages, a <strong>while loop</strong> is a <a href="https://en.wikipedia.org/wiki/Control_flow">control flow</a> <a href="https://en.wikipedia.org/wiki/Statement_(programming)">statement</a> that allows code to be executed repeatedly based on a given <a href="https://en.wikipedia.org/wiki/Boolean_datatype">Boolean</a> condition. The while loop can be thought of as a repeating <a href="https://en.wikipedia.org/wiki/Conditional_(programming)">if statement</a>.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/While_loop">While loop</a></p>
+
+
+
+</section>
+
+<section class="slide " id="16"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="while-loop">While loop</h2>
+<!-- 
+While-loop-diagram.svg
+By P. Kemp - own work created using Dia, CC0
+https://commons.wikimedia.org/w/index.php?curid=894438
+Creative Commons CC0 1.0 Universal Public Domain Dedication. 
+-->
+
+<p><img src="images/While-loop-diagram.svg" alt="While loop diagram" /></p>
+
+
+
+</section>
+
+<section class="slide " id="17"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="iteration-do-while-loop">Iteration (Do while loop)</h2>
+<blockquote>
+  <p>In most computer programming languages, a <strong>do while loop</strong> is a <a href="https://en.wikipedia.org/wiki/Control_flow">control flow</a> <a href="https://en.wikipedia.org/wiki/Statement_(programming)">statement</a> that executes a block of code at least once, and then repeatedly executes the block, or not, depending on a given <a href="https://en.wikipedia.org/wiki/Boolean_datatype">boolean</a> condition at the end of the block.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/While_loop">Do while loop</a></p>
+
+
+
+</section>
+
+<section class="slide " id="18"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="do-while-loop">Do while loop</h2>
+<!-- 
+Do-while-loop-diagram.svg
+By P. Kemp - own work created using Dia, CC0
+https://en.wikipedia.org/wiki/File:Do-while-loop-diagram.svg
+Creative Commons CC0 1.0 Universal Public Domain Dedication.
+-->
+
+<p><img src="images/Do-while-loop-diagram.svg" alt="Do while loop diagram" /></p>
+
+
+
+</section>
+
+<section class="slide " id="19"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="iteration-for-loop">Iteration (For loop)</h2>
+
+<blockquote>
+  <p>In computer science, a for-loop is a <a href="https://en.wikipedia.org/wiki/Control_flow">control flow</a> <a href="https://en.wikipedia.org/wiki/Statement_(programming)">statement</a> for specifying <a href="https://en.wikipedia.org/wiki/Iteration">iteration</a>, which allows code to be executed repeatedly.</p>
+</blockquote>
+
+<p>A <a href="https://en.wikipedia.org/wiki/For_loop">For loop</a> has two parts: a header specifying the iteration, and a body which is executed once per iteration. The header often declares an explicit <a href="https://en.wikipedia.org/wiki/For_loop#Loop_counters">loop counter</a> or loop variable, which allows the body to know which iteration is being executed. For-loops are typically used when the number of iterations is known before entering the loop. For-loops can be thought of as shorthands for while-loops which increment and test a loop variable.</p>
+
+
+
+</section>
+
+<section class="slide " id="20"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="for-loop">For loop</h2>
+<!-- 
+For-loop-diagram.png
+https://commons.wikimedia.org/wiki/File:For-loop-diagram.png
+Creative Commons Attribution-Share Alike 2.5 Generic license. 
+-->
+
+<p><img src="images/For-loop-diagram.png" alt="For loop diagram" /></p>
+
+
+
+</section>
+
+<section class="slide " id="21"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="iteration-foreach-loop">Iteration (foreach loop)</h2>
+<blockquote>
+  <p><strong>For each</strong> (or <strong>foreach</strong>, sometimes called an <strong>iterative for-loop</strong>) is a <a href="https://en.wikipedia.org/wiki/Control_flow">control flow</a> <a href="https://en.wikipedia.org/wiki/Statement_(programming)">statement</a> for traversing items in a <a href="https://en.wikipedia.org/wiki/Collection_class">collection</a>. Foreach is usually used in place of a standard <a href="https://en.wikipedia.org/wiki/For_loop">for statement</a>. Unlike other for loop constructs, however, foreach loops usually maintain no explicit counter: they essentially say “do this to everything in this set”, rather than “do this x times”. This avoids potential <a href="https://en.wikipedia.org/wiki/Off-by-one_error">off-by-one errors</a> and makes code simpler to read. In object-oriented languages an <a href="https://en.wikipedia.org/wiki/Iterator">iterator</a>, even if implicit, is often used as the means of traversal.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Foreach_loop">Foreach loop</a></p>
+
+
+
+</section>
+
+<section class="slide " id="22"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="what-is-structured-programming-i">What is Structured Programming? (I)</h2>
+<p>It is assumed that the birth year of Structured Programming is 1970. Structured programming is considered a subset of imperative programming.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Imperative_programming">Imperative programming</a> is a programming paradigm that uses statements that change a program’s state. In much the same way that the imperative mood in natural languages expresses commands, an imperative program consists of commands for the computer to perform. Imperative programming focuses on describing how a program operates.</p>
+
+
+
+</section>
+
+<section class="slide " id="23"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="what-is-structured-programming-ii">What is Structured Programming? (II)</h2>
+<blockquote>
+  <p>Structured programming is a <a href="https://en.wikipedia.org/wiki/Programming_paradigm">programming paradigm</a> aimed at improving the clarity, quality, and development time of a <a href="https://en.wikipedia.org/wiki/Computer_program">computer program</a> by making extensive use of the structured control flow constructs of selection (<a href="https://en.wikipedia.org/wiki/Conditional_(computer_programming)">if/then/else</a>) and repetition (<a href="https://en.wikipedia.org/wiki/While_loop">while</a> and <a href="https://en.wikipedia.org/wiki/For_loop">for</a>), <a href="https://en.wikipedia.org/wiki/Block_(programming)">block structures</a>, and <a href="https://en.wikipedia.org/wiki/Subroutines">subroutines</a>.</p>
+</blockquote>
+
+<p><a href="https://en.wikipedia.org/wiki/Structured_programming">Structured programming</a></p>
+
+
+
+</section>
+
+<section class="slide " id="24"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="what-is-object-oriented-programming-i">What is Object Oriented Programming? (I)</h2>
+<p>In <strong>OOP</strong>, the focus is on thinking about the problem to be solved in terms of real-world elements and representing the problem in terms of <strong>objects</strong> and their <strong>behavior</strong>.</p>
+
+<p><strong>Classes</strong> depict the abstract representations of real world objects. Classes are like blueprints or templates, which gather similar items or things that can be grouped together. Classes have properties called <strong>attributes</strong> or <strong>fields</strong>. Attributes are implemented as global and instance variables.</p>
+
+
+
+</section>
+
+<section class="slide " id="25"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="what-is-object-oriented-programming-ii">What is Object Oriented Programming? (II)</h2>
+<p><strong>Methods</strong> in the classes represent or define the behavior of these classes. Methods and attributes of classes are called the members of the class. An <strong>instance of a class</strong> is called an <strong>object</strong>. Therefore, an object is a data structure that closely resembles some real-world object.</p>
+
+<p>There are several important <strong>OOP concepts</strong> such as <strong>Data abstraction</strong>, <strong>Encapsulation</strong>, <strong>Polymorphism</strong>, <strong>Messaging</strong>, <strong>Modularity</strong> and <strong>Inheritance</strong>.</p>
+
+<p>Typically, <strong>encapsulation</strong> is achieved by making the <strong>attributes private</strong>, while creating <strong>public methods</strong> that can be used to access those attributes.</p>
+
+
+
+</section>
+
+<section class="slide " id="26"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="what-is-object-oriented-programming-iii">What is Object Oriented Programming? (III)</h2>
+<p><strong>Inheritance</strong> allows the user to extend classes (called sub classes) from other classes (called super classes).</p>
+
+<p><strong>Polymorphism</strong> allows the programmer to substitute an object of a class in place of an object of its super class.</p>
+
+<p>Typically, the <em>nouns</em> found in the problem definition directly become <em>classes</em> in the program. And similarly, <em>verbs</em> become <em>methods</em>. Some of the most popular OOP languages are <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">Java</a> and <a href="https://en.wikipedia.org/wiki/C_Sharp_(programming_language)">C#</a>.</p>
+
+
+
+</section>
+
+<section class="slide " id="27"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="the-key-difference">The key difference</h2>
+<p>The focus of <strong>Structured Programming</strong> is to structure the program in to a <strong>hierarchy of subprograms</strong> while, the focus of <strong>OOP</strong> is to break down the programming task in to <strong>objects</strong>, which <strong>encapsulate data and methods</strong>.</p>
+
+<p><em>OOP</em> is considered <strong>more flexible</strong> than structured programming, because OOP separates a program in to a network of subsystems rather than structuring the program in to a hierarchy. Even though structuring provides certain clarity, a small change to a very large structured program may cause a ripple effect of having to change multiple subprograms.</p>
+
+
+
+</section>
+
+<section class="slide " id="28"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="focuses-on-process-or-data">Focuses on process or data</h2>
+
+<p><em>Structured Programming</em> is designed which focuses on <strong>process</strong>/ logical structure and then data required for that process.</p>
+
+<p><em>Object Oriented Programming</em> is designed which focuses on <strong>data</strong>.</p>
+
+
+
+</section>
+
+<section class="slide " id="29"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="top-down-or-bottom-up-approach">Top-down or bottom-up approach</h2>
+
+<p><em>Structured programming</em> follows <strong>top-down approach</strong>.</p>
+
+<p><em>Object oriented programming</em> follows <strong>bottom-up approach</strong>.</p>
+
+
+
+</section>
+
+<section class="slide " id="30"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="modular-programming-vs-oop-concepts">Modular programming vs. OOP Concepts</h2>
+
+<p><em>Structured Programming</em> is also known as <strong>Modular Programming</strong> and a subset of <strong>procedural programming language</strong>.</p>
+
+<p><em>Object Oriented Programming</em> supports <strong>inheritance</strong>, <strong>encapsulation</strong>, <strong>abstraction</strong>, <strong>polymorphism</strong>, etc.</p>
+
+
+
+</section>
+
+<section class="slide " id="31"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="functions-or-objects">Functions or Objects</h2>
+
+<p>In <em>Structured Programming</em>: Programs are divided into small self contained <strong>functions</strong>.</p>
+
+<p>In <em>Object Oriented Programming</em>: Programs are divided into small entities called <strong>objects</strong>.</p>
+
+
+
+</section>
+
+<section class="slide " id="32"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="data-hiding">Data hiding</h2>
+
+<p><em>Structured Programming</em> is <strong>less secure</strong> as there is <strong>no way of data hiding</strong>.</p>
+
+<p><em>Object Oriented Programming</em> is <strong>more secure</strong> as having <strong>data hiding feature</strong>.</p>
+
+
+
+</section>
+
+<section class="slide " id="33"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="program-complexity">Program complexity</h2>
+
+<p><em>Structured Programming</em> can solve <strong>moderately complex</strong> programs.</p>
+
+<p><em>Object Oriented Programming</em> can solve <strong>any complex</strong> programs.</p>
+
+
+
+</section>
+
+<section class="slide " id="34"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="reusability">Reusability</h2>
+
+<p><em>Structured Programming</em> provides <strong>less reusability</strong>, more function dependency.</p>
+
+<p><em>Object Oriented Programming</em> provides <strong>more reusability</strong>, less function dependency.</p>
+
+
+
+</section>
+
+<section class="slide " id="35"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="abstraction">Abstraction</h2>
+
+<p><em>Structured Programming</em>: <strong>Less abstraction</strong> and <strong>less flexibility</strong>.</p>
+
+<p><em>Object Oriented Programming</em>: <strong>More abstraction</strong> and <strong>more flexibility</strong>.</p>
+
+
+
+</section>
+
+<section class="slide " id="36"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="practice">Practice</h2>
+<!-- 
+developer.png from
+https://pixabay.com/photo-1432921/
+Pixabay License
+https://pixabay.com/es/service/license/
+-->
+
+<p><img src="images/blah-blah.jpg" alt="blah" /></p>
+
+
+
+</section>
+
+<section class="slide " id="37"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-1">Question 1</h2>
+<blockquote>
+  <p><strong>Follow top-down approach to program design</strong></p>
+</blockquote>
+
+<p>Structured Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="38"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-2">Question 2</h2>
+<blockquote>
+  <p><strong>Follow bottom-up approach in program design</strong></p>
+</blockquote>
+
+<p>Object Oriented Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="39"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-3">Question 3</h2>
+<blockquote>
+  <p><strong>Data and Functions don’t tide with each other</strong></p>
+</blockquote>
+
+<p>Structured Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="40"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-4">Question 4</h2>
+<blockquote>
+  <p><strong>Data is hidden and can’t be accessed by the external world</strong></p>
+</blockquote>
+
+<p>Object Oriented Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="41"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-5">Question 5</h2>
+<blockquote>
+  <p><strong>Large programs are divided into smaller self contained program segment known as functions</strong></p>
+</blockquote>
+
+<p>Structured Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="42"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-6">Question 6</h2>
+<blockquote>
+  <p><strong>Functions are not dependent so reusability is possible</strong></p>
+</blockquote>
+
+<p>Object Oriented Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="43"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-7">Question 7</h2>
+<blockquote>
+  <p><strong>A program is decomposed into a hierarchy of processes</strong></p>
+</blockquote>
+
+<p>Structured Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="44"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-8">Question 8</h2>
+<blockquote>
+  <p><strong>It splits the program into objects that can be reused into other programs</strong></p>
+</blockquote>
+
+<p>Object Oriented Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="45"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-9">Question 9</h2>
+<blockquote>
+  <p><strong>It is less secure as there is no way of data hiding</strong></p>
+</blockquote>
+
+<p>Structured Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="46"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="question-10">Question 10</h2>
+<blockquote>
+  <p><strong>It can solve any complex programs</strong></p>
+</blockquote>
+
+<p>Object Oriented Programming Language</p>
+
+
+
+</section>
+
+<section class="slide " id="47"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="web-references">Web References</h2>
+
+<ul>
+  <li><a href="https://www.differencebetween.com/difference-between-structured-programming-and-vs-object-oriented-programming/">Difference Between Structured Programming and Object Oriented Programming</a></li>
+  <li><a href="https://freefeast.info/difference-between/difference-between-structured-programming-and-object-oriented-programming-structured-programming-vs-object-oriented-programming/">Difference between Structured Programming and Object Oriented Programming - Structured Programming vs. Object Oriented Programming</a></li>
+  <li><a href="https://www.differencebetween.com/difference-between-structured-programming-and-vs-object-oriented-programming/">The Computer Revolution/Programming/Object Oriented vs. Structured programming</a></li>
+</ul>
+
+
+
+</section>
+
+<section class="slide " id="48"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="wikipedia-references">Wikipedia References</h2>
+
+<ul>
+  <li><a href="https://en.wikipedia.org/wiki/Programming_paradigm">Programming paradigm</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Object-oriented_programming">Object-oriented programming</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Imperative_programming">Imperative programming</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Structured_programming">Structured programming</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Structured_program_theorem">Structured program theorem</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/List_of_programming_languages_by_type">List of programming languages by type</a></li>
+  <li><a href="https://en.wikipedia.org/wiki/Control_flow">Control flow</a></li>
+</ul>
+
+
+
+</section>
+
+<section class="slide " id="49"> <!-- fix: add +2 or +1 was: (i+2).to_s -->
+  <!-- _S9SLIDE_ -->
+<h2 id="slide-presentation-credits">Slide presentation credits</h2>
+
+<p>Slides generated from <strong>Slide Show (S9)</strong>:</p>
+
+<ul>
+  <li><a href="https://slideshow-s9.github.io/">Slide Show (S9) a free web alternative to PowerPoint and Keynote in Ruby</a>
+    <ul>
+      <li><a href="https://slideshow-s9.github.io/#about">License. The slide show scripts and templates are dedicated to the public domain. Use it as you please with no restrictions whatsoever.</a></li>
+    </ul>
+  </li>
+  <li><a href="https://github.com/shower/shower">Template: Shower HTML presentation engine</a>
+    <ul>
+      <li><a href="https://github.com/shower/shower/blob/master/LICENSE.md">Licencia MIT</a></li>
+    </ul>
+  </li>
+</ul>
+
+</section>
+
+
+
+<!--
+  To hide progress bar from entire presentation
+  just remove “progress” element.
+  -->
+<div class="progress"></div>
+<script src="shower/shower.min.js"></script>
+<!-- Copyright © 2015 Yours Truly, Famous Inc. -->
+<!-- Photos by John Carey, fiftyfootshadows.net -->
+</body>
+</html>

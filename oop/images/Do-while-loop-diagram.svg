@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="267.83582"
+   height="673.7298"
+   viewBox="0 0 8 21"
+   id="svg2"
+   sodipodi:version="0.32"
+   inkscape:version="0.46"
+   sodipodi:docname="Do-while-loop-diagram.svg"
+   inkscape:output_extension="org.inkscape.output.svg.inkscape"
+   version="1.0">
+  <metadata
+     id="metadata53">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs51">
+    <inkscape:perspective
+       sodipodi:type="inkscape:persp3d"
+       inkscape:vp_x="0 : 372.04724 : 1"
+       inkscape:vp_y="0 : 1000 : 0"
+       inkscape:vp_z="283.46457 : 372.04724 : 1"
+       inkscape:persp3d-origin="141.73228 : 248.03149 : 1"
+       id="perspective55" />
+  </defs>
+  <sodipodi:namedview
+     inkscape:window-height="714"
+     inkscape:window-width="1280"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     guidetolerance="10.0"
+     gridtolerance="10.0"
+     objecttolerance="10.0"
+     borderopacity="1.0"
+     bordercolor="#666666"
+     pagecolor="#ffffff"
+     id="base"
+     showgrid="false"
+     inkscape:zoom="0.62088889"
+     inkscape:cx="141.73228"
+     inkscape:cy="372.04724"
+     inkscape:window-x="-4"
+     inkscape:window-y="-4"
+     inkscape:current-layer="svg2" />
+  <polygon
+     style="fill:#ffffff"
+     points="5.39566,12.87 7.40632,14.545 5.39566,16.22 3.385,14.545 5.39566,12.87 "
+     id="polygon4"
+     transform="translate(-0.60919,-0.5875781)" />
+  <polygon
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="5.39566,12.87 7.40632,14.545 5.39566,16.22 3.385,14.545 5.39566,12.87 "
+     id="polygon6"
+     transform="translate(-0.60919,-0.5875781)" />
+  <text transform="translate(4.7864699,14.257422) scale(0.05,0.05)"
+     style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+     id="text8">A</text>
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="5.39566,12.6464 5.39566,11.22 5.4,11.22 5.4,9.65 "
+     id="polyline10"
+     transform="translate(-0.60919,-0.5875781)" />
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="5.14566,12.2582 5.39566,12.7582 5.64566,12.2582 "
+     id="polyline12"
+     transform="translate(-0.60919,-0.5875781)" />
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="5.385,18.7964 5.385,18.05 5.39566,18.05 5.39566,16.22 "
+     id="polyline14"
+     transform="translate(-0.60919,-0.5875781)" />
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="5.135,18.4082 5.385,18.9082 5.635,18.4082 "
+     id="polyline16"
+     transform="translate(-0.60919,-0.5875781)" />
+  <ellipse
+     style="fill:#000000"
+     cx="5.3850002"
+     cy="3.77"
+     rx="0.5"
+     ry="0.5"
+     id="ellipse18"
+     sodipodi:cx="5.3850002"
+     sodipodi:cy="3.77"
+     sodipodi:rx="0.5"
+     sodipodi:ry="0.5"
+     transform="translate(-0.60919,-0.5875781)" />
+  <ellipse
+     style="fill:#ffffff"
+     cx="5.3850002"
+     cy="19.77"
+     rx="0.75"
+     ry="0.75"
+     id="ellipse20"
+     sodipodi:cx="5.3850002"
+     sodipodi:cy="19.77"
+     sodipodi:rx="0.75"
+     sodipodi:ry="0.75"
+     transform="translate(-0.60919,-0.5875781)" />
+  <ellipse
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     cx="5.3850002"
+     cy="19.77"
+     rx="0.75"
+     ry="0.75"
+     id="ellipse22"
+     sodipodi:cx="5.3850002"
+     sodipodi:cy="19.77"
+     sodipodi:rx="0.75"
+     sodipodi:ry="0.75"
+     transform="translate(-0.60919,-0.5875781)" />
+  <ellipse
+     style="fill:#000000"
+     cx="5.3850002"
+     cy="19.77"
+     rx="0.5"
+     ry="0.5"
+     id="ellipse24"
+     sodipodi:cx="5.3850002"
+     sodipodi:cy="19.77"
+     sodipodi:rx="0.5"
+     sodipodi:ry="0.5"
+     transform="translate(-0.60919,-0.5875781)" />
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="5.385,4.27 5.385,6.06 5.4,6.06 5.4,7.62639 "
+     id="polyline26"
+     transform="translate(-0.60919,-0.5875781)" />
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="5.15,7.2382 5.4,7.7382 5.65,7.2382 "
+     id="polyline28"
+     transform="translate(-0.60919,-0.5875781)" />
+  <text transform="translate(0.82590997,13.332422) scale(0.05,0.05)"
+     style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+     id="text30">TRUE</text>
+  <text transform="translate(5.2759099,16.482422) scale(0.05,0.05)"
+     style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:start;fill:#000000;font-family:sans-serif"
+     id="text32"><tspan>F</tspan><tspan>ALSE</tspan></text>
+  <rect
+     style="fill:#ffffff"
+     x="2.7908101"
+     y="7.2624216"
+     width="4"
+     height="1.8"
+     rx="1"
+     ry="1"
+     id="rect34" />
+  <rect
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     x="2.7908101"
+     y="7.2624216"
+     width="4"
+     height="1.8"
+     rx="1"
+     ry="1"
+     id="rect36" />
+  <text transform="translate(4.7908101,8.4624224) scale(0.05,0.05)"
+     style="font-size:16px;font-style:normal;font-weight:normal;text-anchor:middle;fill:#000000;font-family:sans-serif"
+     id="text38">B</text>
+  <text transform="translate(0.47581005,0.5824219) scale(0.05,0.05)"
+     style="font-size:16px;font-style:normal;font-weight:bold;text-anchor:start;fill:#000000;font-family:sans-serif"
+     id="text40">DO B</text>
+  <text transform="translate(0.47581005,1.382422) scale(0.05,0.05)"
+     style="font-size:16px;font-style:normal;font-weight:bold;text-anchor:start;fill:#000000;font-family:sans-serif"
+     id="text42">WHILE (A)</text>
+  <text transform="translate(0.47581005,2.1824219) scale(0.05,0.05)"
+     style="font-size:16px;font-style:normal;font-weight:bold;text-anchor:start;fill:#000000;font-family:sans-serif"
+     id="text44">END WHILE</text>
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="3.17639,8.75 0.485,8.75 0.485,14.545 3.385,14.545 "
+     id="polyline46"
+     transform="translate(-0.60919,-0.5875781)" />
+  <polyline
+     style="fill:none;fill-opacity:0;stroke:#000000;stroke-width:0.1"
+     points="2.7882,9 3.2882,8.75 2.7882,8.5 "
+     id="polyline48"
+     transform="translate(-0.60919,-0.5875781)" />
+</svg>

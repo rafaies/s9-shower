@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created by Flowgorithm 2.2.0 (http://flowgorithm.org) -->
+<svg xmlns:svg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" version="1.1" width="560" height="532">
+	<g>
+		<polyline fill="none" stroke="#404040" stroke-width="7" stroke-dasharray="none" points="280,126 280,194"/>
+		<polygon fill="#404040" stroke="none" points="280,210 295,182 264,182"/>
+		<polyline fill="none" stroke="#404040" stroke-width="7" stroke-dasharray="none" points="280,322 280,390"/>
+		<polygon fill="#404040" stroke="none" points="280,406 295,378 264,378"/>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="4" stroke-dasharray="none" d="M 168,14 A 56,56 0 0,0 168,126 L 392,126 A 56,56 0 0,0 392,14 Z"/>
+			<text x="280" y="31" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle">
+				<tspan x="280" dy="56">Main</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#F0D0FF" stroke="#9070A0" stroke-width="4" stroke-dasharray="none" d="M 168,406 A 56,56 0 0,0 168,518 L 392,518 A 56,56 0 0,0 392,406 Z"/>
+			<text x="280" y="423" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle">
+				<tspan x="280" dy="56">End</tspan>
+			</text>
+		</g>
+		<g>
+			<path fill="#D0FFD0" stroke="#70A070" stroke-width="4" stroke-dasharray="none" d="M 70,210 L 14,322 L 490,322 L 546,210 Z"/>
+			<text x="280" y="227" fill="#000000" font-family="Arial" font-size="32pt" text-anchor="middle">
+				<tspan x="280" dy="56">Output "Hello world!"</tspan>
+			</text>
+		</g>
+	</g>
+</svg>
