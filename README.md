@@ -8,9 +8,9 @@
 
 ## Example using Material Theme 
 
-![oop.png](https://rafaies.github.io/s9-shower/generated-slides/oop/index.html)
+[![first slide screenshot](oop.png)](https://rafaies.github.io/s9-shower/generated-slides/oop/index.html)
 
-[Structured Programming vs. Object Oriented Programming](https://rafaies.github.io/s9-shower/generated-slides/oop/index.html)
+[Structured Programming vs. Object Oriented Programming](https://rafaies.github.io/s9-shower/generated-slides/oop/index.html "Slide presentation using Shower template with Material theme")
 
 From directory where the markdown file is (oop.md):
 
@@ -23,9 +23,9 @@ For example: class="cover" for background images and class="question".
 
 ## Example using Ribbon Theme 
 
-![free-sw.png](https://rafaies.github.io/s9-shower/generated-slides/free-sw/index.html)
+[![first slide screenshot](free-sw.png)](https://rafaies.github.io/s9-shower/generated-slides/free-sw/index.html)
 
-[Free Software](https://rafaies.github.io/s9-shower/generated-slides/free-sw/index.html)
+[Free Software](https://rafaies.github.io/s9-shower/generated-slides/free-sw/index.html "Slide presentation using Shower template with Ribbon theme")
 
 From directory where the markdown file is (free-sw.md):
 
